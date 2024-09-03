@@ -1,38 +1,26 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #ffecdb;
+  height: 100vh;
   display: flex;
+  min-height: 100vh;
+  justify-content: flex-start; /* 위쪽 정렬 */
+  align-items: flex-start; /* 왼쪽 정렬 */
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-left: 3rem; /* 왼쪽 여백 */
+  padding-right: 3rem; /* 왼쪽 여백 */
+  padding-top: 3rem; /* 상단 여백 */
+  margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.intro {
+  font-family: Arial, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  font-size: clamp(1.5rem, 6vw, 3rem); /* 최소 2rem, 최대 4rem */
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: clamp(1rem, 4vw, 2rem); /* 최소 1.5rem, 최대 3rem */
 }

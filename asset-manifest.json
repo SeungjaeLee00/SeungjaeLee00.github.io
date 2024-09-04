@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.aed46a88.css",
-    "main.js": "/static/js/main.5ea75fe9.js",
+    "main.css": "/static/css/main.4a857b7e.css",
+    "main.js": "/static/js/main.942296c4.js",
     "static/js/453.4b2b8278.chunk.js": "/static/js/453.4b2b8278.chunk.js",
     "static/media/KimjungchulMyungjo-Regular.ttf": "/static/media/KimjungchulMyungjo-Regular.9f4ad4a24edc810e732e.ttf",
     "static/media/Pretendard-Regular.ttf": "/static/media/Pretendard-Regular.fbe5b096111efa3e3bc2.ttf",
+    "static/media/potfoilo.jpg": "/static/media/potfoilo.91bac56234c382cabe26.jpg",
     "index.html": "/index.html",
-    "main.aed46a88.css.map": "/static/css/main.aed46a88.css.map",
-    "main.5ea75fe9.js.map": "/static/js/main.5ea75fe9.js.map",
+    "main.4a857b7e.css.map": "/static/css/main.4a857b7e.css.map",
+    "main.942296c4.js.map": "/static/js/main.942296c4.js.map",
     "453.4b2b8278.chunk.js.map": "/static/js/453.4b2b8278.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aed46a88.css",
-    "static/js/main.5ea75fe9.js"
+    "static/css/main.4a857b7e.css",
+    "static/js/main.942296c4.js"
   ]
 }

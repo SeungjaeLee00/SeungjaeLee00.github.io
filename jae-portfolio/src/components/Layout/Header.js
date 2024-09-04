@@ -1,12 +1,14 @@
 import React from "react";
-import "./Header.css";
+import "../Layout_css/Header.css";
 
 function Header() {
   return (
     <header className="menu-bar">
       <div className="menu-contents">
         <div className="menu-title">
-          <a href="#home">About me</a>
+          <a href="" style={{ fontWeight: "bold" }}>
+            About JAEJAE
+          </a>
         </div>
         <div className="menu-list">
           <div className="menu-item">

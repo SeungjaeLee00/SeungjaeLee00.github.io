@@ -1,7 +1,7 @@
 import React, { forwardRef } from "react";
 
 import Card from "../components/Card";
-// import "./Archiving.css";
+import "../Details_css/ArchivingDetail.css";
 
 const ArchivingDetail = forwardRef((props, ref) => {
   return (

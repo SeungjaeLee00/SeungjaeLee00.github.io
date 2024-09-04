@@ -8,6 +8,7 @@ import ArchivingDetail from "./Details/ArchivingDetail";
 import SkillDetail from "./Details/SkillDetail";
 import ProjectDetail from "./Details/ProjectDetail";
 import ContactDetail from "./Details/ContactDetail";
+import TopButton from "./components/TopButton";
 
 function App() {
   const HomeRef = useRef(null);
@@ -28,6 +29,7 @@ function App() {
         <ProjectDetail ref={HomeRef} />
         <ContactDetail ref={HomeRef} />
       </div>
+      <TopButton />
       <div className="footer">
         <Footer />
       </div>

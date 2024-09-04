@@ -18,13 +18,19 @@ function App() {
 
   return (
     <div className="App">
-      <Header move={moveHandler} />
-      <AboutDetail ref={HomeRef} />
-      <ArchivingDetail ref={HomeRef} />
-      <SkillDetail ref={HomeRef} />
-      <ProjectDetail ref={HomeRef} />
-      <ContactDetail ref={HomeRef} />
-      <Footer />
+      <div className="header">
+        <Header move={moveHandler} />
+      </div>
+      <div className="body">
+        <AboutDetail ref={HomeRef} />
+        <ArchivingDetail ref={HomeRef} />
+        <SkillDetail ref={HomeRef} />
+        <ProjectDetail ref={HomeRef} />
+        <ContactDetail ref={HomeRef} />
+      </div>
+      <div className="footer">
+        <Footer />
+      </div>
     </div>
   );
 }

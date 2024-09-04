@@ -1,6 +1,6 @@
 .App {
   background-color: #ffecdb;
-  height: 100vh;
+  height: 100%;
   display: flex;
   min-height: 100vh;
   justify-content: flex-start; /* 위쪽 정렬 */
@@ -10,10 +10,7 @@
   padding-right: 3rem; /* 왼쪽 여백 */
   padding-top: 3rem; /* 상단 여백 */
   margin: 0;
-}
-
-.intro {
-  font-family: Arial, sans-serif;
+  font-family: "KimjungchulMyungjo-Regular";
 }
 
 h1 {

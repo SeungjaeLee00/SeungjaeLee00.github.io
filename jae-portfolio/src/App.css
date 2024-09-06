@@ -1,5 +1,5 @@
 .App {
-  background-color: #ffecdb;
+  background: linear-gradient(to bottom, #ffecdb, #ffab91);
   min-height: 100vh;
   display: flex;
   justify-content: center; /* 수직 중앙 정렬 */
@@ -9,4 +9,9 @@
   padding-top: calc(3rem + 4rem);
   margin: 0;
   font-family: "KimjungchulMyungjo-Regular";
+}
+
+.section {
+  margin-bottom: 3rem; /* 각 섹션 간의 여백 */
+  padding: 2rem;
 }

@@ -24,10 +24,19 @@ function App() {
       </div>
       <div className="body">
         <AboutDetail ref={HomeRef} />
-        <ArchivingDetail ref={HomeRef} />
-        <SkillDetail ref={HomeRef} />
-        <ProjectDetail ref={HomeRef} />
-        <ContactDetail ref={HomeRef} />
+
+        <div className="section">
+          <ArchivingDetail ref={HomeRef} />
+        </div>
+        <div className="section">
+          <SkillDetail ref={HomeRef} />
+        </div>
+        <div className="section">
+          <ProjectDetail ref={HomeRef} />
+        </div>
+        <div className="section">
+          <ContactDetail ref={HomeRef} />
+        </div>
       </div>
       <TopButton />
       <div className="footer">

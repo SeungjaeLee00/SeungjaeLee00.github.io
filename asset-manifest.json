@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a857b7e.css",
-    "main.js": "/static/js/main.942296c4.js",
+    "main.css": "/static/css/main.bd860677.css",
+    "main.js": "/static/js/main.7723a854.js",
     "static/js/453.4b2b8278.chunk.js": "/static/js/453.4b2b8278.chunk.js",
     "static/media/KimjungchulMyungjo-Regular.ttf": "/static/media/KimjungchulMyungjo-Regular.9f4ad4a24edc810e732e.ttf",
     "static/media/Pretendard-Regular.ttf": "/static/media/Pretendard-Regular.fbe5b096111efa3e3bc2.ttf",
     "static/media/potfoilo.jpg": "/static/media/potfoilo.91bac56234c382cabe26.jpg",
+    "static/media/js.png": "/static/media/js.5a643270188f8262d073.png",
+    "static/media/html.png": "/static/media/html.7650c63463f9b4e00ed0.png",
     "index.html": "/index.html",
-    "main.4a857b7e.css.map": "/static/css/main.4a857b7e.css.map",
-    "main.942296c4.js.map": "/static/js/main.942296c4.js.map",
+    "main.bd860677.css.map": "/static/css/main.bd860677.css.map",
+    "main.7723a854.js.map": "/static/js/main.7723a854.js.map",
     "453.4b2b8278.chunk.js.map": "/static/js/453.4b2b8278.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a857b7e.css",
-    "static/js/main.942296c4.js"
+    "static/css/main.bd860677.css",
+    "static/js/main.7723a854.js"
   ]
 }

@@ -1,4 +1,5 @@
 import React, { forwardRef } from "react";
+import emailjs from "@emailjs/browser";
 
 import Card from "../components/Card";
 import "../Details_css/ContactDetail.css";

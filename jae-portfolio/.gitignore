@@ -23,4 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # img
-src/img
+src/img/*.png
+src/img/*.jpg

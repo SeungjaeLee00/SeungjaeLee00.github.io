@@ -10,6 +10,7 @@ import jsImg from "../img/js.png";
 import nodejsImg from "../img/nodejs.png";
 import mongoDBImg from "../img/mondodb.png";
 import pythonImg from "../img/python.png";
+import githubImg from "../img/github.png";
 
 const skillDetail = forwardRef((props, ref) => {
   return (
@@ -37,6 +38,7 @@ const skillDetail = forwardRef((props, ref) => {
         <Card className="etc-card">
           <h3 className="etc-title">ETC</h3>
           <div className="etc-img">
+            <img src={githubImg} alt="Github image" />
             <img src={pythonImg} alt="Python image" />
           </div>
         </Card>

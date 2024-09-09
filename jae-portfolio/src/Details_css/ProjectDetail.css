@@ -18,3 +18,39 @@
   align-items: center;
   width: 100%;
 }
+
+.project-card-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-card {
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 1000px; /* 고정 너비 */
+  height: 700px; /* 고정 높이 */
+  padding: 30px; /* 카드 내부의 여백을 추가 */
+  box-sizing: border-box; /* 패딩을 포함한 크기 조절 */
+}
+
+section {
+  display: flex;
+  flex-direction: row; /* 두 article을 가로 정렬 */
+  justify-content: space-between; /* 필요에 따라 간격 조절 */
+  align-items: flex-start; /* 상단 정렬 */
+  gap: 20px; /* 두 article 사이 간격 */
+}
+
+article {
+  display: flex;
+  flex-direction: column; /* article 내부는 세로 정렬 */
+  align-items: flex-start; /* 좌측 정렬 */
+  width: 45%; /* article의 너비를 적절히 설정 */
+  box-sizing: border-box;
+}
+
+.info-article img {
+  max-width: 100%; /* 이미지 크기 조절 */
+  height: auto;
+}

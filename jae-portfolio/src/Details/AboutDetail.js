@@ -4,7 +4,7 @@ import myphoto from "../img/potfoilo.jpg";
 
 const aboutDetail = forwardRef((props, ref) => {
   return (
-    <div className="home">
+    <div className="home" ref={ref}>
       <div className="home-myPhoto">
         <img src={myphoto} alt="My Photo" />
       </div>

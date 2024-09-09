@@ -19,17 +19,15 @@
   width: 100%;
 }
 
-.github-card {
-  width: 100%;
-  max-width: 400px;
+.card-wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row; /* 기본적으로 가로 정렬 */
   align-items: center;
-  text-align: center;
-  padding: 20px;
-  box-sizing: border-box;
+  justify-content: center;
+  flex-wrap: nowrap; /* 줄 바꿈 없이 가로로 정렬 */
 }
 
+.github-card,
 .blog-card {
   width: 100%;
   max-width: 400px;
@@ -39,4 +37,17 @@
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
+  margin: 10px; /* 가로 간격 추가 */
+}
+
+/* 작은 화면에서 세로 정렬로 변경 */
+@media (max-width: 768px) {
+  .card-wrapper {
+    flex-direction: column !important; /* 작은 화면에서는 세로 정렬 */
+  }
+
+  .github-card,
+  .blog-card {
+    max-width: 100%; /* 카드 너비를 100%로 확장 */
+  }
 }

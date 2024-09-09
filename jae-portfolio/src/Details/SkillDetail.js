@@ -14,7 +14,7 @@ import githubImg from "../img/github.png";
 
 const skillDetail = forwardRef((props, ref) => {
   return (
-    <div className="Skills">
+    <div className="Skills" ref={ref}>
       <h1 className="skill-title">
         <a name="Skills">Tech Skills</a>
       </h1>

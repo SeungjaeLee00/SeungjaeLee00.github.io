@@ -5,7 +5,7 @@ import "../Details_css/ArchivingDetail.css";
 
 const ArchivingDetail = forwardRef((props, ref) => {
   return (
-    <div className="archiving">
+    <div className="archiving" ref={ref}>
       <h1 className="archiving-title">
         <a name="Archiving">Archiving</a>
       </h1>

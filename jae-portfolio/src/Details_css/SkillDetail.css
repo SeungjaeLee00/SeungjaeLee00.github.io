@@ -24,7 +24,9 @@
   object-fit: contain;
 }
 
-.card {
+.front-card,
+.back-card,
+.etc-card {
   display: flex;
   flex-direction: column;
   justify-content: center; /* 카드 내에서 수직 중앙 정렬 */
@@ -32,7 +34,9 @@
   text-align: center; /* 텍스트를 중앙에 맞춤 */
 }
 
-.card h3 {
+.front-card,
+.back-card,
+.etc-card h3 {
   margin: 0 0 20px 0; /* h3 태그 아래에 약간의 여백 추가 */
   font-size: 1.5rem;
   font-weight: bold;

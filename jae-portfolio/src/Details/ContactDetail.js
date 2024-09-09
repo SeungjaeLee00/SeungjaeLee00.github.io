@@ -31,7 +31,7 @@ const ContactDetail = forwardRef((props, ref) => {
       );
   };
   return (
-    <div className="Contact">
+    <div className="Contact" ref={ref}>
       <h1 className="contact-title">
         <a name="Contact">Contact</a>
       </h1>

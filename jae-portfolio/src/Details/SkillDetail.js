@@ -22,24 +22,24 @@ const skillDetail = forwardRef((props, ref) => {
         <Card className="front-card">
           <h3 className="front-title">Frontend</h3>
           <div className="front-img">
-            <img src={cssImg} alt="CSS image" />
-            <img src={htmlImg} alt="HTML image" />
-            <img src={jsImg} alt="JS imgae" />
-            <img src={reactImg} alt="React image" />
+            <img src={cssImg} alt="CSS" />
+            <img src={htmlImg} alt="HTML" />
+            <img src={jsImg} alt="JS" />
+            <img src={reactImg} alt="React" />
           </div>
         </Card>
         <Card className="back-card">
           <h3 className="back-title">Backend</h3>
           <div className="back-img">
-            <img src={nodejsImg} alt="Node.js image" />
-            <img src={mongoDBImg} alt="MongoDB image" />
+            <img src={nodejsImg} alt="Node.js" />
+            <img src={mongoDBImg} alt="MongoDB" />
           </div>
         </Card>
         <Card className="etc-card">
           <h3 className="etc-title">ETC</h3>
           <div className="etc-img">
-            <img src={githubImg} alt="Github image" />
-            <img src={pythonImg} alt="Python image" />
+            <img src={githubImg} alt="Github" />
+            <img src={pythonImg} alt="Python" />
           </div>
         </Card>
       </div>

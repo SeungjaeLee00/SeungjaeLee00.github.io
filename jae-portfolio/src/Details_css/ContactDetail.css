@@ -19,17 +19,6 @@
   width: 100%;
 }
 
-.contact-card-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  width: 100%;
-  box-sizing: border-box;
-}
-
 .contents {
   max-width: 800px;
   margin: 0 auto;
@@ -81,7 +70,7 @@
   background-color: #0056b3;
 }
 
-a {
+.email-link {
   text-decoration: none;
   color: black;
 }

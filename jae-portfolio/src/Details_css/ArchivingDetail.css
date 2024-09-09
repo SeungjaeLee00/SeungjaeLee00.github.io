@@ -19,17 +19,6 @@
   width: 100%;
 }
 
-.card-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  width: 100%;
-  box-sizing: border-box;
-}
-
 .github-card {
   width: 100%;
   max-width: 400px;

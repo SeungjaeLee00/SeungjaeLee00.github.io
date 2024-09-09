@@ -6,7 +6,7 @@ function Header() {
     <header className="menu-bar">
       <div className="menu-contents">
         <div className="menu-title">
-          <a href="#home" style={{ fontWeight: "bold" }}>
+          <a href="#Home" style={{ fontWeight: "bold" }}>
             About JAEJAE
           </a>
         </div>

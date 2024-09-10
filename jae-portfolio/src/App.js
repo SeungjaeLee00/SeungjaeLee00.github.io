@@ -49,8 +49,8 @@ function App() {
         .filter(({ ref }) => {
           const rect = ref.current.getBoundingClientRect();
           return (
-            rect.top <= window.innerHeight / 3 &&
-            rect.bottom >= window.innerHeight / 3
+            rect.top <= window.innerHeight / 2 &&
+            rect.bottom >= window.innerHeight / 4
           );
         })
         .map(({ id }) => id);

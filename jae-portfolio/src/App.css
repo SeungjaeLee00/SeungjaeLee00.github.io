@@ -2,10 +2,10 @@
   background: linear-gradient(to bottom, #ffecdb, #ffab91);
   min-height: 100vh;
   display: flex;
-  justify-content: center; /* 수직 중앙 정렬 */
-  align-items: center; /* 수평 중앙 정렬 */
   flex-direction: column;
-  padding: 3rem; /* 모든 방향에 3rem 여백 */
+  justify-content: flex-start; /* 컴포넌트가 화면 위에서부터 시작하도록 */
+  align-items: center;
+  padding: 3rem; /* 전체 여백 */
   padding-top: calc(3rem + 4rem);
   margin: 0;
   font-family: "KimjungchulMyungjo-Regular";
@@ -20,4 +20,19 @@
 .section.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding: 1rem;
+    padding-top: calc(1rem + 4rem);
+  }
+
+  .section {
+    padding: 1rem; /* 모바일에서 섹션마다 적절한 여백 추가 */
+  }
+}
+
+.footer {
+  margin-top: auto; /* 푸터를 항상 아래에 고정 */
 }

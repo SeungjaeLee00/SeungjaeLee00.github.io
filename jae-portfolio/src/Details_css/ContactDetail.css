@@ -6,7 +6,9 @@
   padding: 20px;
   width: 100%;
   max-width: 1200px;
+  max-height: 100vh; /* 화면 높이를 초과하지 않도록 */
   box-sizing: border-box;
+  overflow-y: auto; /* 세로 스크롤 허용 */
 }
 
 .contact-title {
@@ -20,7 +22,7 @@
 }
 
 .contact-card {
-  width: 600px;
+  width: 400px;
 }
 
 .contents {

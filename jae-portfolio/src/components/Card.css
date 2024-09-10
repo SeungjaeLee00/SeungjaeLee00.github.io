@@ -5,7 +5,6 @@
   padding: 16px; /* 카드 내부의 패딩을 설정 */
   margin: 16px 0; /* 카드 상하단에 여백을 설정 */
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* 카드에 마우스를 올렸을 때 부드러운 전환 효과 추가 */
-  max-width: 400px;
 }
 
 .card:hover {

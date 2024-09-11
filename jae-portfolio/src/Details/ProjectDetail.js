@@ -36,7 +36,9 @@ const projectDetail = forwardRef((props, ref) => {
           <h2 className="project-title">
             {projectItems[currentProjectIndex].title}
           </h2>
-          <h4>{projectItems[currentProjectIndex].category}</h4>
+          <h4 style={{ textAlign: "center", width: "100%" }}>
+            {projectItems[currentProjectIndex].category}
+          </h4>
           <section>
             <article className="info-article">
               <img

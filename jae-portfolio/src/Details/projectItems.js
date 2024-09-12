@@ -3,11 +3,11 @@ export const projectItems = [
     title: "🛒물품대여서비스",
     category: "개인 프로젝트",
     imageUrls: [
-      "http://localhost:3000/images/billim_main.png",
-      "http://localhost:3000/images/billim_login.png",
-      "http://localhost:3000/images/billim_signup.png",
-      "http://localhost:3000/images/billim_myPage.png",
-      "http://localhost:3000/images/billim_chat.png",
+      "/projectImgs/billim_main.png",
+      "/projectImgs/billim_login.png",
+      "/projectImgs/billim_signup.png",
+      "/projectImgs/billim_myPage.png",
+      "/projectImgs/billim_chat.png",
     ],
     githubLink: "https://github.com/SeungjaeLee00/rentalService_React",
     description: `이 프로젝트는 중고물품 거래 서비스를 참고하여 물품 대여 서비스를 구현한 프로젝트입니다.<br />
@@ -28,11 +28,11 @@ export const projectItems = [
     title: "💁‍♀️나만의 포트폴리오",
     category: "개인 프로젝트",
     imageUrls: [
-      `http://localhost:3000/images/potfoilo1.png`,
-      `http://localhost:3000/images/about.png`,
-      `http://localhost:3000/images/skills.png`,
-      `http://localhost:3000/images/project.png`,
-      `http://localhost:3000/images/contact.png`,
+      `/projectImgs/potfoilo1.png`,
+      `/projectImgs/about.png`,
+      `/projectImgs/skills.png`,
+      `/projectImgs/project.png`,
+      `/projectImgs/contact.png`,
     ],
     githubLink: "https://github.com/SeungjaeLee00/SeungjaeLee00.github.io",
     description: `이 프로젝트는 React와 GitHub Pages를 활용하여 개인 포트폴리오 웹사이트를 제작한 프로젝트입니다.<br /> 
@@ -48,10 +48,10 @@ export const projectItems = [
     title: "⚙️Boilerplate Code",
     category: "개인 프로젝트",
     imageUrls: [
-      `http://localhost:3000/images/login.gif`,
-      `http://localhost:3000/images/logout.gif`,
-      `http://localhost:3000/images/signup.gif`,
-      `http://localhost:3000/images/auth.gif`,
+      `/projectImgs/login.gif`,
+      `/projectImgs/logout.gif`,
+      `/projectImgs/signup.gif`,
+      `/projectImgs/auth.gif`,
     ],
     githubLink: "https://github.com/SeungjaeLee00/boiler-plate-ko",
     description: `이 프로젝트는 React, Node.js, Express.js, MongoDB를 활용하여 사용자 인증 및 관리를 위한 보일러플레이트 코드를 구현한 프로젝트입니다.<br />
@@ -69,7 +69,7 @@ export const projectItems = [
     title:
       "👫MediaPipe Holistic을 활용한 모션 인식 및 특정 행동 수행 여부 판단",
     category: "개인 프로젝트",
-    imageUrls: [`http://localhost:3000/images/mediaPipe.png`],
+    imageUrls: [`/projectImgs/mediaPipe.png`],
     githubLink:
       "https://github.com/SeungjaeLee00/motionRecognition_MediaPipeHolistic",
     description: `이 프로젝트는 MediaPipe Holistic을 사용해 얼굴, 손, 그리고 포즈의 랜드마크를 추적하여 사람의 동작을 인식하고 특정 행동을 감지하는 시스템입니다.<br />
@@ -82,7 +82,7 @@ export const projectItems = [
   {
     title: "🌄이미지 분류를 위한 Custom CNN",
     category: "개인 프로젝트",
-    imageUrls: [`http://localhost:3000/images/customCNN.png`],
+    imageUrls: [`/projectImgs/customCNN.png`],
     githubLink:
       "https://github.com/SeungjaeLee00/imageClassification_customCNN",
     description: `이 프로젝트는 PyTorch를 사용하여 사자와 호랑이 이미지를 분류하는 커스텀 CNN을 구축하고 Google Colab에서 이를 구현합니다.<br />

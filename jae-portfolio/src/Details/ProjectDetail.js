@@ -49,7 +49,7 @@ const projectDetail = forwardRef((props, ref) => {
       <div className="project-card-wrapper">
         <div className="slide">
           <img
-            src={process.env.PUBLIC_URL + "/images/left.png"}
+            src={process.env.PUBLIC_URL + "/projectImgs/left.png"}
             onClick={handlePrevProject}
           />
         </div>
@@ -110,7 +110,7 @@ const projectDetail = forwardRef((props, ref) => {
         </Card>
         <div className="slide">
           <img
-            src={process.env.PUBLIC_URL + "/images/right.png"}
+            src={process.env.PUBLIC_URL + "/projectImgs/right.png"}
             onClick={handleNextProject}
           />
         </div>

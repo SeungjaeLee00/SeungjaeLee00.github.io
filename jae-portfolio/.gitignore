@@ -26,6 +26,7 @@ yarn-error.log*
 # img
 src/img/*.png
 src/img/*.jpg
-public/images/*.png
-public/images/*.jpg
-public/images/*.gif
+
+public/projectImgs/*.png
+public/projectImgs/*.jpg
+public/projectImgs/*.gif

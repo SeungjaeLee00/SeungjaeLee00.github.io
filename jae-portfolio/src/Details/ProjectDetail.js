@@ -3,23 +3,44 @@ import React, { forwardRef, useEffect, useState } from "react";
 import Card from "../components/Card";
 import { projectItems } from "./projectItems";
 import "../Details_css/ProjectDetail.css";
-import left from "../img/left.png";
-import right from "../img/right.png";
 
 const projectDetail = forwardRef((props, ref) => {
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const handlePrevProject = () => {
     setCurrentProjectIndex((prevIndex) =>
       prevIndex === 0 ? projectItems.length - 1 : prevIndex - 1
     );
+    setCurrentImageIndex(0); // 프로젝트 변경 시 이미지 슬라이더 초기화
   };
 
   const handleNextProject = () => {
     setCurrentProjectIndex((prevIndex) =>
       prevIndex === projectItems.length - 1 ? 0 : prevIndex + 1
     );
+    setCurrentImageIndex(0);
   };
+
+  const handlePrevImage = () => {
+    setCurrentImageIndex((prevIndex) =>
+      prevIndex === 0
+        ? projectItems[currentProjectIndex].imageUrls.length - 1
+        : prevIndex - 1
+    );
+  };
+
+  const handleNextImage = () => {
+    setCurrentImageIndex((prevIndex) =>
+      prevIndex === projectItems[currentProjectIndex].imageUrls.length - 1
+        ? 0
+        : prevIndex + 1
+    );
+  };
+
+  const imageUrls = projectItems[currentProjectIndex].imageUrls;
+  const hasMultipleImages = imageUrls.length > 1;
+
   return (
     <div className="container project" ref={ref}>
       <h1 className="project-title">
@@ -27,7 +48,10 @@ const projectDetail = forwardRef((props, ref) => {
       </h1>
       <div className="project-card-wrapper">
         <div className="slide">
-          <img src={left} onClick={handlePrevProject} />
+          <img
+            src={process.env.PUBLIC_URL + "/images/left.png"}
+            onClick={handlePrevProject}
+          />
         </div>
         <Card className="project-card">
           <div className="project-order">
@@ -40,11 +64,27 @@ const projectDetail = forwardRef((props, ref) => {
             {projectItems[currentProjectIndex].category}
           </h4>
           <section>
+            <div className="project-img">
+              <div className="slider">
+                <img
+                  src={
+                    projectItems[currentProjectIndex].imageUrls[
+                      currentImageIndex
+                    ]
+                  }
+                  alt={projectItems[currentProjectIndex].title}
+                />
+                {hasMultipleImages && (
+                  <div className="slider-controls">
+                    <button onClick={handlePrevImage}>{"<"}</button>
+                    <button onClick={handleNextImage}>{">"}</button>
+                  </div>
+                )}
+              </div>
+            </div>
+          </section>
+          <section>
             <article className="info-article">
-              <img
-                src={projectItems[currentProjectIndex].imageUrl}
-                alt={projectItems[currentProjectIndex].title}
-              />
               <p className="link-wrapper">Github</p>
               <a href={projectItems[currentProjectIndex].githubLink}>
                 {projectItems[currentProjectIndex].title}
@@ -52,18 +92,27 @@ const projectDetail = forwardRef((props, ref) => {
             </article>
             <article>
               <h3>프로젝트 소개</h3>
-              <p>{projectItems[currentProjectIndex].description}</p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: projectItems[currentProjectIndex].description,
+                }}
+              ></p>
               <h3>주요 기능</h3>
-              <p>{projectItems[currentProjectIndex].features}</p>
-              <h3>회고</h3>
-              <p>{projectItems[currentProjectIndex].retrospective}</p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: projectItems[currentProjectIndex].features,
+                }}
+              ></p>
               <h3>기술스택</h3>
               <p>{projectItems[currentProjectIndex].techStack}</p>
             </article>
           </section>
         </Card>
         <div className="slide">
-          <img src={right} onClick={handleNextProject} />
+          <img
+            src={process.env.PUBLIC_URL + "/images/right.png"}
+            onClick={handleNextProject}
+          />
         </div>
       </div>
     </div>

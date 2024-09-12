@@ -27,28 +27,134 @@
 .project-card {
   flex-grow: 0;
   flex-shrink: 0;
-  width: 600px; /* 원하는 너비로 설정 */
+  width: 750px; /* 원하는 너비로 설정 */
   padding: 30px;
   box-sizing: border-box;
 }
 
 section {
   display: flex;
-  flex-direction: row; /* 두 article을 가로 정렬 */
-  justify-content: space-between; /* 필요에 따라 간격 조절 */
-  align-items: flex-start; /* 상단 정렬 */
-  gap: 20px; /* 두 article 사이 간격 */
+  flex-direction: column;
+  gap: 20px;
 }
 
-article {
+.project-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+section:nth-of-type(2) {
   display: flex;
-  flex-direction: column; /* article 내부는 세로 정렬 */
-  align-items: flex-start; /* 좌측 정렬 */
-  width: 45%; /* article의 너비를 적절히 설정 */
+  flex-direction: row;
+  gap: 20px;
+}
+
+section:nth-of-type(2) article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 20% 80%;
   box-sizing: border-box;
 }
 
-.info-article img {
-  max-width: 100%; /* 이미지 크기 조절 */
+.info-article {
+  margin-right: 20px;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider img {
+  max-width: 100%;
   height: auto;
+}
+
+.slider-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.slider-controls button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.slider-controls button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* 최대 화면에서 이미지 크기를 크게 설정 */
+@media (min-width: 1200px) {
+  .info-article img {
+    max-width: 120%; /* 이미지 크기를 더 크게 설정 */
+  }
+}
+
+/* 화면 너비 1024px 이하에서 */
+@media (max-width: 1024px) {
+  .project-card {
+    width: 100%; /* 카드 너비를 화면 전체로 설정 */
+    max-width: 600px; /* 카드 최대 너비 설정 */
+  }
+
+  .project-title {
+    font-size: 2rem; /* 제목 글씨 크기 줄임 */
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  section:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+  }
+
+  article {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .project-title {
+    font-size: 1.8rem;
+  }
+
+  section {
+    gap: 15px;
+  }
+
+  section:nth-of-type(2) {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  article {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
 }

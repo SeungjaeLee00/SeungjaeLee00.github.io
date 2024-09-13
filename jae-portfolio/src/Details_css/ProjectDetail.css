@@ -49,12 +49,26 @@ section:nth-of-type(2) {
   gap: 20px;
 }
 
-section:nth-of-type(2) article {
-  display: flex;
-  flex-direction: column;
+section:nth-of-type(2) article:first-child {
+  flex: 0 0 30%; /* 첫 번째 article의 너비 30% */
   align-items: flex-start;
-  width: 20% 80%;
+}
+
+section:nth-of-type(2) article:last-child {
+  flex: 0 0 70%; /* 두 번째 article의 너비 70% */
+  align-items: flex-start;
   box-sizing: border-box;
+  padding-right: 50px;
+}
+
+.link-wrapper {
+  background-color: #ffecdb;
+  border-radius: 30px;
+  width: 100%;
+  padding: 5px 10px 5px 5px;
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 10px;
 }
 
 .info-article {

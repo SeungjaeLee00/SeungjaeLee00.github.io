@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1fb5942.css",
+    "main.css": "/static/css/main.de49e021.css",
     "main.js": "/static/js/main.43c44f57.js",
     "static/js/453.4b2b8278.chunk.js": "/static/js/453.4b2b8278.chunk.js",
     "static/media/KimjungchulMyungjo-Regular.ttf": "/static/media/KimjungchulMyungjo-Regular.9f4ad4a24edc810e732e.ttf",
@@ -9,12 +9,12 @@
     "static/media/js.png": "/static/media/js.5a643270188f8262d073.png",
     "static/media/html.png": "/static/media/html.7650c63463f9b4e00ed0.png",
     "index.html": "/index.html",
-    "main.b1fb5942.css.map": "/static/css/main.b1fb5942.css.map",
+    "main.de49e021.css.map": "/static/css/main.de49e021.css.map",
     "main.43c44f57.js.map": "/static/js/main.43c44f57.js.map",
     "453.4b2b8278.chunk.js.map": "/static/js/453.4b2b8278.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1fb5942.css",
+    "static/css/main.de49e021.css",
     "static/js/main.43c44f57.js"
   ]
 }

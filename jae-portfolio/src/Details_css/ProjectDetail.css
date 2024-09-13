@@ -153,7 +153,8 @@ section:nth-of-type(2) article:last-child {
   }
 
   .project-title {
-    font-size: 1.8rem;
+    font-size: 1.8rem; /* 제목 글씨 크기 줄임 */
+    margin-bottom: 20px; /* 아래쪽 여백 줄임 */
   }
 
   section {

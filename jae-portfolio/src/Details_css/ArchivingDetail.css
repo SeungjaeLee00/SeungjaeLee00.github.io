@@ -46,6 +46,11 @@
     flex-direction: column !important; /* 작은 화면에서는 세로 정렬 */
   }
 
+  .archiving-title {
+    font-size: 1.8rem; /* 제목 글씨 크기 줄임 */
+    margin-bottom: 20px; /* 아래쪽 여백 줄임 */
+  }
+
   .github-card,
   .blog-card {
     max-width: 100%; /* 카드 너비를 100%로 확장 */

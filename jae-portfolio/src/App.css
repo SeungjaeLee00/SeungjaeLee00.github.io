@@ -36,3 +36,15 @@
 .footer {
   margin-top: auto; /* 푸터를 항상 아래에 고정 */
 }
+
+@media (max-width: 768px) {
+  .App {
+    padding: 1rem;
+    padding-top: calc(1rem + 4rem);
+    background: linear-gradient(
+      to bottom,
+      #ffecdb,
+      #ffab91
+    ); /* 배경색 재설정 */
+  }
+}

@@ -80,3 +80,47 @@
   text-decoration: none;
   color: black;
 }
+
+@media (max-width: 768px) {
+  .Contact {
+    padding: 10px; /* 여백 줄임 */
+  }
+
+  .contact-title {
+    font-size: 1.8rem; /* 제목 글씨 크기 줄임 */
+    margin-bottom: 20px; /* 아래쪽 여백 줄임 */
+  }
+
+  .contact-card {
+    width: 100%; /* 카드 너비를 화면 전체로 설정 */
+    max-width: 200px; /* 카드 최대 너비 줄임 */
+  }
+
+  .contents {
+    max-width: 100%; /* 콘텐츠 너비를 화면 전체로 설정 */
+    padding: 10px; /* 여백 줄임 */
+  }
+
+  .contents h3 {
+    font-size: 14px; /* 제목 글씨 크기 줄임 */
+    margin-bottom: 6px; /* 아래쪽 여백 줄임 */
+  }
+
+  .contents input,
+  .contents textarea {
+    max-width: 100%; /* 입력 필드 및 텍스트 영역 너비를 화면 전체로 설정 */
+    font-size: 12px; /* 글씨 크기 줄임 */
+    padding: 8px; /* 패딩 줄임 */
+    margin-bottom: 12px; /* 아래쪽 여백 줄임 */
+  }
+
+  .contents textarea {
+    height: 80px; /* 텍스트 영역 높이 줄임 */
+  }
+
+  .send-btn button {
+    width: 100px; /* 버튼 너비 줄임 */
+    font-size: 14px; /* 글씨 크기 줄임 */
+    padding: 8px 16px; /* 패딩 줄임 */
+  }
+}

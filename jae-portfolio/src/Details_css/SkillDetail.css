@@ -42,3 +42,10 @@
   font-weight: bold;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .skill-title {
+    font-size: 1.8rem; /* 제목 글씨 크기 줄임 */
+    margin-bottom: 20px; /* 아래쪽 여백 줄임 */
+  }
+}

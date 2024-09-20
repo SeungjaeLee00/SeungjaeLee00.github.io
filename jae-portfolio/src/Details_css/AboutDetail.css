@@ -1,7 +1,8 @@
 .home {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 80px 30px;
+  margin: 40px 0;
 }
 
 .home-myPhoto {

@@ -1,6 +1,6 @@
 import React, { forwardRef } from "react";
 import "../Details_css/AboutDetail.css";
-import myphoto from "../img/potfoilo.jpg";
+import myphoto from "../img/potfoilo.png";
 
 const aboutDetail = forwardRef((props, ref) => {
   return (

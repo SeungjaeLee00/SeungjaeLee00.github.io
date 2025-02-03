@@ -88,11 +88,26 @@ const projectDetail = forwardRef((props, ref) => {
               <p className="link-wrapper">
                 Github
                 <br />
+                <a href={projectItems[currentProjectIndex].githubLink}>
+                  {projectItems[currentProjectIndex].title}
+                </a>
               </p>
-              <a href={projectItems[currentProjectIndex].githubLink}>
-                {projectItems[currentProjectIndex].title}
-              </a>
+
+              {projectItems[currentProjectIndex].deploySite && (
+                <p className="link-wrapper">
+                  배포한 사이트
+                  <br />
+                  <a
+                    href={projectItems[currentProjectIndex].deploySite}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {projectItems[currentProjectIndex].deploySiteName}
+                  </a>
+                </p>
+              )}
             </article>
+
             <article>
               <h3>프로젝트 소개</h3>
               <p

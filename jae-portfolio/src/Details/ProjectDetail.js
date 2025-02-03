@@ -84,7 +84,7 @@ const projectDetail = forwardRef((props, ref) => {
             </div>
           </section>
           <section>
-            <article className="info-article">
+            <article className="info-git-article">
               <p className="link-wrapper">
                 Github
                 <br />
@@ -92,7 +92,8 @@ const projectDetail = forwardRef((props, ref) => {
               <a href={projectItems[currentProjectIndex].githubLink}>
                 {projectItems[currentProjectIndex].githubLinkName}
               </a>
-
+            </article>
+            <article className="info-deploy-article">
               {projectItems[currentProjectIndex].deploySite && (
                 <>
                   <p className="link-wrapper">

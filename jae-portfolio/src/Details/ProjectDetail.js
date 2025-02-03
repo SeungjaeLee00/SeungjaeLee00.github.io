@@ -90,7 +90,7 @@ const projectDetail = forwardRef((props, ref) => {
                 <br />
               </p>
               <a href={projectItems[currentProjectIndex].githubLink}>
-                {projectItems[currentProjectIndex].title}
+                {projectItems[currentProjectIndex].githubLinkName}
               </a>
 
               {projectItems[currentProjectIndex].deploySite && (

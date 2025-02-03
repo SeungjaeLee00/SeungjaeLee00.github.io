@@ -84,32 +84,34 @@ const projectDetail = forwardRef((props, ref) => {
             </div>
           </section>
           <section>
-            <article className="info-git-article">
-              <p className="link-wrapper">
-                Github
-                <br />
-              </p>
-              <a href={projectItems[currentProjectIndex].githubLink}>
-                {projectItems[currentProjectIndex].githubLinkName}
-              </a>
-            </article>
-            <article className="info-deploy-article">
-              {projectItems[currentProjectIndex].deploySite && (
-                <>
-                  <p className="link-wrapper">
-                    배포한 사이트
-                    <br />
-                  </p>
-                  <a
-                    href={projectItems[currentProjectIndex].deploySite}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {projectItems[currentProjectIndex].deploySiteName}
-                  </a>
-                </>
-              )}
-            </article>
+            <>
+              <article className="info-git-article">
+                <p className="link-wrapper">
+                  Github
+                  <br />
+                </p>
+                <a href={projectItems[currentProjectIndex].githubLink}>
+                  {projectItems[currentProjectIndex].githubLinkName}
+                </a>
+              </article>
+              <article className="info-deploy-article">
+                {projectItems[currentProjectIndex].deploySite && (
+                  <>
+                    <p className="link-wrapper">
+                      배포한 사이트
+                      <br />
+                    </p>
+                    <a
+                      href={projectItems[currentProjectIndex].deploySite}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {projectItems[currentProjectIndex].deploySiteName}
+                    </a>
+                  </>
+                )}
+              </article>
+            </>
 
             <article>
               <h3>프로젝트 소개</h3>

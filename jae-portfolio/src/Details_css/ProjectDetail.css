@@ -65,13 +65,13 @@ section:nth-of-type(2) article:last-child {
 .info-container {
   display: flex;
   flex-direction: column;
-  gap: 20px; /* 간격 조정 */
+  gap: 20px;
 }
 
 .info-git-article,
 .info-deploy-article {
-  width: 50%; /* 각각 화면의 절반 차지 */
-  text-align: center; /* 가운데 정렬 */
+  margin-right: 20px;
+  width: 50%;
 }
 
 .link-wrapper {

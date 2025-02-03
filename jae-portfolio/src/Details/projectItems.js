@@ -44,27 +44,27 @@ export const projectItems = [
     4. 문의: 방문자가 연락할 수 있도록 구성된 문의 페이지<br />`,
     techStack: "React, CSS, HTML, Github",
   },
-  // {
-  //   title: "⚙️Boilerplate Code",
-  //   category: "개인 프로젝트",
-  //   imageUrls: [
-  //     `/projectImgs/login.gif`,
-  //     `/projectImgs/logout.gif`,
-  //     `/projectImgs/signup.gif`,
-  //     `/projectImgs/auth.gif`,
-  //   ],
-  //   githubLink: "https://github.com/SeungjaeLee00/boiler-plate-ko",
-  //   description: `이 프로젝트는 React, Node.js, Express.js, MongoDB를 활용하여 사용자 인증 및 관리를 위한 보일러플레이트 코드를 구현한 프로젝트입니다.<br />
-  //   회원가입, 로그인 및 로그아웃 기능을 포함하며, JWT 토큰을 통해 사용자 인증과 세션 관리를 처리합니다.<br />
-  //   이 코드는 사용자 인증을 필요로 하는 웹 애플리케이션의 기본 틀을 제공하며, 빠르게 프로젝트를 시작할 수 있도록 돕습니다.<br />
-  //   또한, RESTful API와 MongoDB를 통해 백엔드 서버와 데이터베이스 관리를 효율적으로 구성하였습니다.<br />`,
-  //   features: `1. 회원가입 기능: 사용자 계정 생성<br />
-  //   2. 로그인 및 로그아웃 기능: 세션 관리를 위한 JWT 토큰 사용<br />
-  //   3. JWT 토큰 관리: 인증된 사용자 세션을 보호하고 유지<br />
-  //   4. RESTful API 기반 백엔드 구성<br />
-  //   5. MongoDB와의 연동을 통한 데이터베이스 관리`,
-  //   techStack: "React, Node.js, Express.js, MongoDB",
-  // },
+  {
+    title: "SSinstagram",
+    category: "개인 프로젝트",
+    imageUrls: [
+      `/projectImgs/login.gif`,
+      `/projectImgs/logout.gif`,
+      `/projectImgs/signup.gif`,
+      `/projectImgs/auth.gif`,
+    ],
+    githubLink: "https://github.com/SeungjaeLee00/boiler-plate-ko",
+    description: `이 프로젝트는 React, Node.js, Express.js, MongoDB를 활용하여 사용자 인증 및 관리를 위한 보일러플레이트 코드를 구현한 프로젝트입니다.<br />
+    회원가입, 로그인 및 로그아웃 기능을 포함하며, JWT 토큰을 통해 사용자 인증과 세션 관리를 처리합니다.<br />
+    이 코드는 사용자 인증을 필요로 하는 웹 애플리케이션의 기본 틀을 제공하며, 빠르게 프로젝트를 시작할 수 있도록 돕습니다.<br />
+    또한, RESTful API와 MongoDB를 통해 백엔드 서버와 데이터베이스 관리를 효율적으로 구성하였습니다.<br />`,
+    features: `1. 회원가입 기능: 사용자 계정 생성<br />
+    2. 로그인 및 로그아웃 기능: 세션 관리를 위한 JWT 토큰 사용<br />
+    3. JWT 토큰 관리: 인증된 사용자 세션을 보호하고 유지<br />
+    4. RESTful API 기반 백엔드 구성<br />
+    5. MongoDB와의 연동을 통한 데이터베이스 관리`,
+    techStack: "React, Node.js, Express.js, MongoDB",
+  },
   {
     title:
       "👫MediaPipe Holistic을 활용한 모션 인식 및 특정 행동 수행 여부 판단",

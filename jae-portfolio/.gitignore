@@ -30,3 +30,6 @@ src/img/*.jpg
 public/projectImgs/*.png
 public/projectImgs/*.jpg
 public/projectImgs/*.gif
+
+
+src/Details/projectItems.js

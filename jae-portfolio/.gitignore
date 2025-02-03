@@ -30,6 +30,7 @@ src/img/*.jpg
 public/projectImgs/*.png
 public/projectImgs/*.jpg
 public/projectImgs/*.gif
+public/projectImgs/ssinsta/*.png
 
 
 src/Details/projectItems.js

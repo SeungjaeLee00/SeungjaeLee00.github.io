@@ -98,7 +98,7 @@ const projectDetail = forwardRef((props, ref) => {
                 {projectItems[currentProjectIndex].deploySite && (
                   <>
                     <p className="link-wrapper">
-                      배포한 사이트
+                      배포 사이트
                       <br />
                     </p>
                     <a

@@ -84,7 +84,7 @@ const projectDetail = forwardRef((props, ref) => {
             </div>
           </section>
           <section>
-            <>
+            <div className="info-container">
               <article className="info-git-article">
                 <p className="link-wrapper">
                   Github
@@ -111,7 +111,7 @@ const projectDetail = forwardRef((props, ref) => {
                   </>
                 )}
               </article>
-            </>
+            </div>
 
             <article>
               <h3>프로젝트 소개</h3>

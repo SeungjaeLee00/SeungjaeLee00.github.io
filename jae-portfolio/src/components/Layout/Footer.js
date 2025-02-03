@@ -4,7 +4,7 @@ import "../Layout_css/Footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      &copy; 2024 JAEJAE portfolio. All rights reserved.
+      &copy; 2025 JAEJAE portfolio. All rights reserved.
     </footer>
   );
 };
